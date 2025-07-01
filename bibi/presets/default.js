@@ -17,10 +17,10 @@ Bibi.preset({
 "fix-reader-view-mode"          : "no", // "yes" or "no" or "desktop" or "mobile"
 
 "keep-settings"                 : "yes", // "yes" or "no" or "desktop" or "mobile"
-"resume-from-last-position"     : "yes", // "yes" or "no" or "desktop" or "mobile"
+"resume-from-last-position"     : "no", // "yes" or "no" or "desktop" or "mobile"
 
 "autostart"                     : "yes", // "yes" or "no" or "desktop" or "mobile"
-"autostart-embedded"            : "no", // "yes" or "no" or "desktop" or "mobile" (It takes priority over "autostart" when the book is embedded in a webpage)
+"autostart-embedded"            : "yes", // "yes" or "no" or "desktop" or "mobile" (It takes priority over "autostart" when the book is embedded in a webpage)
 "start-embedded-in-new-window"  : "mobile", // "yes" or "no" or "desktop" or "mobile" (It is used only when "autostart" (or "autostart-embedded") is NOT enabled)
 
 
@@ -28,7 +28,7 @@ Bibi.preset({
 //-- UI / Design
 //----------------------------------------------------------------------------------------------------------------------------------------------
 
-"use-menubar"                : "yes", // "yes" or "no" or "desktop" or "mobile"
+"use-menubar"                : "no", // "yes" or "no" or "desktop" or "mobile"
 "use-full-height"            : "yes", // "yes" or "no" or "desktop" or "mobile". If "use-menubar" is interpreted as "no", "use-full-height" is always treated as "yes".
 
 "use-arrows"                 : "yes", // "yes" or "no" or "desktop" or "mobile"
@@ -36,8 +36,8 @@ Bibi.preset({
 
 "use-keys"                   : "yes", // "yes" or "no" or "desktop" or "mobile"
 
-"use-slider"                 : "yes", // "yes" or "no" or "desktop" or "mobile"
-"flip-pages-during-sliding"  : "yes", // "yes" or "no" or "desktop" or "mobile"
+"use-slider"                 : "no", // "yes" or "no" or "desktop" or "mobile"
+"flip-pages-during-sliding"  : "no", // "yes" or "no" or "desktop" or "mobile"
 
 "use-nombre"                 : "yes", // "yes" or "no" or "desktop" or "mobile"
 
@@ -50,22 +50,22 @@ Bibi.preset({
 "loupe-scale-per-step"       : 1.6, // Number of scale (greater than 1, less than or equal to "loupe-max-scale")
 "zoom-out-for-utilities"     : "yes", // "yes" or "no" or "desktop" or "mobile"
 
-"use-history"                : "yes", // "yes" or "no" or "desktop" or "mobile"
+"use-history"                : "no", // "yes" or "no" or "desktop" or "mobile"
 "max-history"                : 19, // Number (0-19). If larger than 19, treated as 19. If 0, "use-history" is treated as "no". 
 
-"use-bookmarks"              : "yes", // "yes" or "no" or "desktop" or "mobile"
+"use-bookmarks"              : "no", // "yes" or "no" or "desktop" or "mobile"
 "max-bookmarks"              : 3, // Number (0-9). If larger than 9, treated as 9. If 0, "use-bookmarks" is treated as "no" (but old data is kept in localStorage). 
 
 "orientation-border-ratio"   : 1 * 2 / 1.5, // Number (Width per Height)
 
 "ui-font-family"             : "", // CSS font-family value as "'Helvetica', sans-serif" or ""
 
-"item-padding-left"          : 24, // Number of pixel (It affects only for reflowable books.)
-"item-padding-right"         : 24, // Number of pixel (It affects only for reflowable books.)
-"item-padding-top"           : 48, // Number of pixel (It affects only for reflowable books.)
-"item-padding-bottom"        : 24, // Number of pixel (It affects only for reflowable books.)
+"item-padding-left"          : 0, // Number of pixel (It affects only for reflowable books.)
+"item-padding-right"         : 0, // Number of pixel (It affects only for reflowable books.)
+"item-padding-top"           : 0, // Number of pixel (It affects only for reflowable books.)
+"item-padding-bottom"        : 0, // Number of pixel (It affects only for reflowable books.)
 
-"spread-gap"                 : 48, // Number of pixel (It affects only in paged view mode.)
+"spread-gap"                 : 0, // Number of pixel (It affects only in paged view mode.)
 "spread-margin"              : 0, // Number of pixel
 
 "fix-nav-ttb"                : "no", // "yes" or "no" or "desktop" or "mobile"
@@ -103,10 +103,10 @@ Bibi.preset({
 //-- Extra
 //----------------------------------------------------------------------------------------------------------------------------------------------
 
-"website-name-in-title"    : "", // "" or name of your website replaces string "Bibi" in <title>.
+"website-name-in-title"    : "Sam Ragnarsson", // "" or name of your website replaces string "Bibi" in <title>.
 "website-name-in-menu"     : "", // "" or name of your website appears in setting-menu as a link. (Requires "website-href")
 "website-href"             : "", // "" or URL of your website to be used for the link in setting-menu. (Requires "website-name-in-menu")
-"remove-bibi-website-link" : false, // true or false (if true, the link to Bibi Website is not to be added in setting-menu)
+"remove-bibi-website-link" : true, // true or false (if true, the link to Bibi Website is not to be added in setting-menu)
 
 
 //==============================================================================================================================================
