@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="pub-id" xml:lang="en" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/ schema: http://schema.org/" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title id="title">The Batley Debacle</dc:title>
+    <dc:creator id="creator">Sam Ragnarsson</dc:creator>
+    <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+    <meta refines="#creator" property="file-as">Ragnarsson, Sam</meta>
+    <dc:language>en</dc:language>
+    <dc:identifier id="pub-id">urn:uuid:BFDCCC13-2249-4B20-B42A-15AD073E0887</dc:identifier>
+    <meta refines="#pub-id" scheme="xsd:string" property="identifier-type">uuid</meta>
+    <meta property="dcterms:modified">2025-07-01T12:20:58Z</meta>
+    <meta id="collection-name" property="belongs-to-collection">From The World of Blackhurst</meta>
+    <meta refines="#collection-name" property="collection-type">series</meta>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">readingOrder</meta>
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilitySummary">The structure and markup of this publication follow WCAG guidelines. This summary has been automatically generated based on the content of this publication.</meta>
+    <meta name="generator" content="Vellum"/>
+    <meta name="vellum-version" content="3.7.4"/>
+    <meta name="vellum-target-platform" content="Kindle"/>
+    <meta name="cover" content="cover-image"/>
+    <meta name="Sigil version" content="2.3.1"/>
+  </metadata>
+  <manifest>
+    <item id="alegreya-regular-ttf" href="fonts/Alegreya-Regular.ttf" media-type="application/font-sfnt"/>
+    <item id="greatvibes-regular-ttf" href="fonts/GreatVibes-Regular.ttf" media-type="application/font-sfnt"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="title-page-xhtml" href="title-page.xhtml" media-type="application/xhtml+xml"/>
+    <item id="the-batley-debacle-xhtml" href="the-batley-debacle.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="cover-image" href="images/maroon-vintage-prayer-journal-book-cover-1-sRGB-1200-70.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="break-section-side-screen-svg" href="images/break-section-side-screen.svg" media-type="image/svg+xml"/>
+    <item id="heading-starburst-bottom-screen-svg" href="images/heading-starburst-bottom-screen.svg" media-type="image/svg+xml"/>
+    <item id="media-css" href="css/media.css" media-type="text/css"/>
+    <item id="style-css" href="css/style.css" media-type="text/css"/>
+    <item id="sil-open-font-license-11-txt" href="fonts/SIL-Open-Font-License-1.1.txt" media-type="text/plain"/>
+    <item id="cover.xhtml" href="cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="title-page-xhtml"/>
+    <itemref idref="the-batley-debacle-xhtml"/>
+    <itemref idref="toc"/>
+  </spine>
+</package>
