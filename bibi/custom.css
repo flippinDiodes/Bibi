@@ -1,0 +1,13 @@
+html, body, #bibi, .bibi-main {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: none !important;
+}
+
+.bibi-book-frame {
+  padding: 0 !important;
+  margin: 0 auto !important;
+  box-shadow: none !important;
+  background: none !important;
+}
