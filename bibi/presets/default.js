@@ -16,7 +16,7 @@ Bibi.preset({
 "full-breadth-layout-in-scroll" : "no", // "yes" or "no" or "desktop" or "mobile"
 "fix-reader-view-mode"          : "no", // "yes" or "no" or "desktop" or "mobile"
 
-"keep-settings"                 : "yes", // "yes" or "no" or "desktop" or "mobile"
+"keep-settings"                 : "no", // "yes" or "no" or "desktop" or "mobile"
 "resume-from-last-position"     : "no", // "yes" or "no" or "desktop" or "mobile"
 
 "autostart"                     : "no", // "yes" or "no" or "desktop" or "mobile"
