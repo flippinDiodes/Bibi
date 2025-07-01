@@ -28,7 +28,7 @@ Bibi.preset({
 //-- UI / Design
 //----------------------------------------------------------------------------------------------------------------------------------------------
 
-"use-menubar"                : "no", // "yes" or "no" or "desktop" or "mobile"
+"use-menubar"                : "yes", // "yes" or "no" or "desktop" or "mobile"
 "use-full-height"            : "yes", // "yes" or "no" or "desktop" or "mobile". If "use-menubar" is interpreted as "no", "use-full-height" is always treated as "yes".
 
 "use-arrows"                 : "yes", // "yes" or "no" or "desktop" or "mobile"
