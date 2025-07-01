@@ -41,6 +41,15 @@
 		<div id="bibi-book-data" data-bibi-book-mimetype="application/epub+zip" hidden="hidden">
 		</div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const bibiFrame = document.querySelector("iframe") || document;
+    bibiFrame.addEventListener("wheel", function (e) {
+      e.preventDefault();
+    }, { passive: false });
+  });
+</script>
+		
 	</body>
 
 
