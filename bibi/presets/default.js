@@ -20,7 +20,7 @@ Bibi.preset({
 "resume-from-last-position"     : "no", // "yes" or "no" or "desktop" or "mobile"
 
 "autostart"                     : "no", // "yes" or "no" or "desktop" or "mobile"
-"autostart-embedded"            : "yes", // "yes" or "no" or "desktop" or "mobile" (It takes priority over "autostart" when the book is embedded in a webpage)
+"autostart-embedded"            : "no", // "yes" or "no" or "desktop" or "mobile" (It takes priority over "autostart" when the book is embedded in a webpage)
 "start-embedded-in-new-window"  : "mobile", // "yes" or "no" or "desktop" or "mobile" (It is used only when "autostart" (or "autostart-embedded") is NOT enabled)
 
 
