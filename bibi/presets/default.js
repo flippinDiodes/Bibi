@@ -60,10 +60,10 @@ Bibi.preset({
 
 "ui-font-family"             : "", // CSS font-family value as "'Helvetica', sans-serif" or ""
 
-"item-padding-left"          : 12, // Number of pixel (It affects only for reflowable books.)
-"item-padding-right"         : 12, // Number of pixel (It affects only for reflowable books.)
-"item-padding-top"           : 12, // Number of pixel (It affects only for reflowable books.)
-"item-padding-bottom"        : 12, // Number of pixel (It affects only for reflowable books.)
+"item-padding-left"          : 36, // Number of pixel (It affects only for reflowable books.)
+"item-padding-right"         : 36, // Number of pixel (It affects only for reflowable books.)
+"item-padding-top"           : 36, // Number of pixel (It affects only for reflowable books.)
+"item-padding-bottom"        : 36, // Number of pixel (It affects only for reflowable books.)
 
 "spread-gap"                 : 0, // Number of pixel (It affects only in paged view mode.)
 "spread-margin"              : 0, // Number of pixel
